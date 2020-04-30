@@ -8,7 +8,7 @@
 ###### Year tab will display fact for year entered (max length 4 digits) if found.
 
 <a href="https://play.google.com/store/apps/details?id=com.wishhard.cm.mulitabtest&hl=en"><img src="https://github.com/wishhard/One-Hundred-Thousand-Counter/blob/master/img/gp.png" align="left" height="60" width="150" ></a>
-<br><br><br>
+<br><br>
 
-<img src="img/unnamed.webp" height="100" width="200">
+<img src="img/unnamed.webp" height="300" width="100">
 
