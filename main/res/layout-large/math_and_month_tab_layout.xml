@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/math_and_year"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_22sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="ExtraText,MissingDefaultResource">
+
+
+    <RelativeLayout
+        android:id="@+id/input_sesion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+
+        <com.infideap.blockedittext.BlockEditText
+            android:id="@+id/blockEditText_year_math"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="wrap_content"
+            app:bet_editTextBackground="@drawable/block_edit_text_selector"
+            app:bet_hintTextAppearance="@style/BlockEdtTextHint"
+            app:bet_inputType="Integer"
+            app:bet_textSize="@dimen/_8ssp" />
+
+        <com.wishhard.nf.numbersfacts.views.FactSearchButton
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_2sdp"
+            android:layout_toEndOf="@+id/blockEditText_year_math"
+            android:layout_alignBottom="@id/blockEditText_year_math">
+        </com.wishhard.nf.numbersfacts.views.FactSearchButton>
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/searchTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/_17ssp" />
+
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/factTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/_17ssp"
+        android:textAlignment="center"/>
+
+    <FrameLayout
+        android:id="@+id/loading_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#8e000000"
+        android:clickable="false"
+        android:visibility="gone">
+
+        <com.github.ybq.android.spinkit.SpinKitView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            style="@style/SpinKitView.Large.Circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:SpinKit_Color="@color/colorAccent" />
+
+    </FrameLayout>
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Numbers Facts</string>
+
+    <string name="pixabayTab">Pixabay</string>
+
+    <string name="nf_au1">ca-app-pub-3133582463179859/3950837587</string>
+    <string name="nf_au2">ca-app-pub-3133582463179859/7273584040</string>
+
+    <string name="mathTab">Math</string>
+    <string name="monthTab">Month</string>
+    <string name="yearTab">Year</string>
+
+    <string name="math_tab_hint">Enter a number</string>
+    <string name="year_tab_hint">Enter year</string>
+
+    <string name="fact_screen_orientation_pref_title">Fact screen orientation</string>
+    <string name="fso_pref_checked_sumary">Landscape</string>
+    <string name="fso_pref_unchecked_sumary">Portrait</string>
+
+    <string name="show_img_with_fact_pref_title">Show image with fact</string>
+    <string name="siwf_pref_checked_sumary">Showing image with fact.</string>
+    <string name="siwf_pref_unchecked_sumary">Showing fact.</string>
+
+    <string name="file_provider_auth">com.wishhard.cm.fileprovider</string>
+
+    <string name="numb_api_info">Thanks to &lt;a href=http://numbersapi.com>NumbersApi&lt;/a> for providing facts for math, month and year.</string>
+    <string name="pixal_bay_api_info">Thanks to &lt;a href=https://pixabay.com>PixalBay&lt;/a> for providing amazing and high quality images.</string>
+
+
+    <string name="action_info">App Info</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_number_fact">NumberFactActivity</string>
+
+</resources>

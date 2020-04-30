@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fact_without_pic"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fact_act_bg_color"
+    tools:ignore="MissingDefaultResource">
+
+    <TextView
+        android:id="@+id/fact_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_24sdp"
+        android:layout_marginEnd="@dimen/_24sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:textSize="@dimen/_30ssp"
+        app:layout_constraintBottom_toTopOf="@+id/the_factTv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.906"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/the_factTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_24sdp"
+        android:layout_marginEnd="@dimen/_24sdp"
+        android:layout_marginBottom="@dimen/_185sdp"
+        android:paddingStart="@dimen/_12sdp"
+        android:paddingEnd="@dimen/_12sdp"
+        android:textAlignment="center"
+        android:textSize="@dimen/_20ssp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="@android:color/white"/>
+
+    <FrameLayout
+        android:id="@+id/top_btns"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:visibility="gone" >
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/settings_btn"
+            android:layout_width="@dimen/_36sdp"
+            android:layout_height="@dimen/_36sdp"
+            android:layout_gravity="end|center_vertical"
+            app:srcCompat="@drawable/ic_settings_24dp"
+            android:layout_marginEnd="@dimen/_26sdp" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/share_btn"
+            android:layout_width="@dimen/_36sdp"
+            android:layout_height="@dimen/_36sdp"
+            android:layout_gravity="end|center_vertical"
+            app:srcCompat="@drawable/ic_share_24dp"
+            android:layout_marginEnd="@dimen/_90sdp"/>
+    </FrameLayout>
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,80 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#130A0A</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:splitMotionEvents">false</item>
+    </style>
+
+    <style name="ShareFactTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">#130A0A</item>
+    </style>
+
+    <style name="SettingsTheme" parent="@style/PreferenceFixTheme.Light.DarkActionBar">
+        <item name="android:selectableItemBackground">@drawable/pref_list_selector</item>
+        <!--<item name="colorPrimaryDark">#0e0303</item>-->
+        <item name="android:splitMotionEvents">false</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="SearchbarTheme" parent="MaterialSearchBarDark">
+        <item name="mt_searchBarColor">#000000</item>
+        <item name="mt_dividerColor">#fcfcfc</item>
+        <item name="mt_navIconTint">@color/searchBarNavIconTintColor</item>
+        <item name="mt_searchIconTint">#d7787070</item>
+        <item name="mt_clearIconTint">#d7787070</item>
+        <item name="mt_menuIconTint">@color/searchBarMenuIconTintColor</item>
+        <item name="mt_backIconTint">#d7787070</item>
+        <item name="mt_textCursorTint">#cafdfafa</item>
+        <item name="mt_textColor">#e5fdfafa</item>
+        <item name="mt_hintColor">#79f5f0f0</item>
+        <item name="mt_placeholderColor">@color/searchBarPlaceholderColor</item>
+        <item name="mt_highlightedTextColor">@color/searchBarTextHighlightColor</item>
+        <item name="mt_leftTextSelectorTint">@color/leftTextSelectorColor</item>
+        <item name="mt_middleTextSelectorTint">@color/middleTextSelectorColor</item>
+        <item name="mt_rightTextSelectorTint">@color/rightTextSelectorColor</item>
+        <item name="mt_leftTextSelectorDrawable">
+            @drawable/text_select_handle_left_mtrl_alpha_mtrlsearch
+        </item>
+        <item name="mt_middleTextSelectorDrawable">
+            @drawable/text_select_handle_middle_mtrl_alpha_mtrlsearch
+        </item>
+        <item name="mt_rightTextSelectorDrawable">
+            @drawable/text_select_handle_right_mtrl_alpha_mtrlsearch
+        </item>
+        <item name="mt_handlesTintEnabled">true</item>
+    </style>
+
+    <style name="AppTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">#000000</item>
+        <item name="tabIndicatorHeight">4dp</item>
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <item name="tabTextAppearance">@style/AppTabTextAppearance</item>
+        <item name="tabSelectedTextColor">#000000</item>
+    </style>
+
+    <style name="AppTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">#68000000</item>
+    </style>
+
+    <style  name="BlockEdtTextHint" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:textSize">@dimen/abc_text_size_medium_material</item>
+        <item name="android:textColor">#9effffff</item>
+        <item name="colorAccent">@android:color/white</item>
+        <item name="android:textColorHint">#83a19393</item>
+    </style>
+
+
+</resources>
